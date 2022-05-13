@@ -1,0 +1,18 @@
+#pricing{
+    padding: 120px;
+    text-align: center;
+  }
+
+  .pricing-col{
+    padding: 3% 2%;
+  }
+
+  @media (max-width: 1028px){
+    .pic{
+        position: static;
+        transform: rotate(0);
+    }
+    body{
+        text-align: center;
+    }
+  }
