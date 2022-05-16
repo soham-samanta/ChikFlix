@@ -7,12 +7,14 @@
     padding: 3% 2%;
   }
 
+  .car{
+    height: 700px;
+    width: 100%;
+  }
+
   @media (max-width: 1028px){
-    .pic{
-        position: static;
-        transform: rotate(0);
-    }
-    body{
-        text-align: center;
-    }
+      .car{
+          height: 300px;
+          width: 100%;
+      }
   }
